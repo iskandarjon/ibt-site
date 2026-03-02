@@ -28,8 +28,6 @@ ul {
 }
 
 .container {
-    width: 90%;
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -127,4 +125,48 @@ ul {
     margin-top: 15px;
     color: var(--skyblue);
     font-weight: 500;
+}
+
+
+.footer  {
+    background-color: var(--dark);
+    color: var(--white);
+    padding: 50px 0 20px;
+ }
+
+.footer-grid {
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.footer-col {
+    min-width:200px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-col p, .footer-col ul li {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #ccd2da;
+}
+
+.footer-col ul li a:hover {
+    color: var(--white);
+}
+
+.footer-bottom {
+        border-top: 1px solid rgba(255,255,255,0.2);
+        padding-top: 20px;
+        text-align: center;
+        font-size: 12px;  
+        background-color: var(--dark);
+        color: var(--bg);
+       
 }
